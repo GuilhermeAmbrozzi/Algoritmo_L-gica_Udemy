@@ -3,9 +3,9 @@ Algoritmo "Consumo"
 Var
    km,consumo,combustivelGasto: real
 Inicio
-      escreval("Infomre o Kms total percorridos ")
+      escreval("Informe o Kms total percorridos ")
       leia(km)
-      escreval("Infomre consumo total de gasolina gasta ")
+      escreval("Informe consumo total de gasolina gasta ")
       leia(combustivelGasto)
       
       consumo <- km / combustivelGasto
