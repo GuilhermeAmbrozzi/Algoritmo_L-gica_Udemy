@@ -32,13 +32,13 @@
     ESCREVA("a funcionaria", nome, "ganha", salario, "e tem ", idade)<br>
     Note que sempre devemos colocar uma virgula para fazer a separação das variáveis e as palavras que será imprimidas na tela do usuário.
 </p>
-
+    <hr>
     <h2>Entrada de Dados</h2>
 
     <p>
-        Entrada de dados é tudo o que o usuário informar para o programa através de um teclado e armazenando dentro da variável designada, assim o programa vai ler essa entrada assim dando continuidade ao programa, no visualg o comando para lar a entrada de dados é o LEIA(variável).
+        Entrada de dados é tudo o que o usuário informar para o programa através de um teclado e armazenando dentro da variável designada, assim o programa vai ler essa entrada assim dandFo continuidade ao programa, no visualg o comando para lar a entrada de dados é o LEIA(variável).
     </p>
-
+    <hr>
     <h2>Estrutura Condicional</h2>
     <h3>Expressões Comparativas</h3>
     <p>
@@ -73,5 +73,41 @@
     <P>
         Estruturas Encadeadas ou Aninhadas podemos ter mais de 2 condição aninhando as estruturas encadeadas assim nosso código fica melhor na hora de se fazer alguma mudança dentro do código, sua sintaxe é SE (condição 1) ENTÃO (bloco comando 1) SENÃO SE (condição 2) ENTÃO (bloco comando 2) SENÃO (bloco comando 3)FIMSE, caso esteja com dificuldade de entender use o comando debug dentro do visualg é F8 assim você pode ver como o programa será executado.
     </P>
+    <h3>
+        Estrutura Escolha
+    </h3>
+
+    <p>
+       Temos a estrutura escolha para facilitar algumas tomadas de decisão, usamos quando não temos que fazer comparativo de valor com expressões lógicas, podendo ser usado por exemplo na estrutura de um cardápio onde vai ter a descrição do prato e seu valor. 
+    </p>
+    <p>
+        A sintaxe da estrutura escolha é ESCOLHA (variável) CASO 1 CASO 2 CASO 3 OUTROCASO FIMESCOLHA. A variável vai ser uma de controle onde sera determinante para o programa saber em qual caso vai jogar na tela para o usuário caso seja digitado um valor diferente de algum dos caso entra no bloco OUTROCASO que trara uma mensagem de valor invalido.
+    </p>
+    <hr>
+    <h2>Estrutura Repetitivas</h2>
+    <h3>Enquanto</h3>
+
+    <p>
+        Essa é uma estrutura de controle que repete um bloco de comando enquanto uma condição for verdadeira, usamos essa estrutura quando não sabemos a quantidades de repetições que será realizada.
+    </p>
+    <p>
+        Sua sintaxe é ENQUANTO (condição)FACA (comandos)FIMENQUANDO<br>
+        Regra:<br> Verdadeiro: executa os comandos e volta<br>
+        Falso: pula fora do bloco de controle
+    </p>
+
+    <h3>Estrutura Repetitiva Para</h3>
+
+    <p>
+        É uma estrutura de controle que repete um bloco de comando até um certo intervalo de valores, muito usado quando sabemos quantas vezes um bloco determinado deve se repetir.
+    </p>
+
+    <p>
+        Sua sintaxe é PARA (variável) DE (valor_Inicial) ATE (valor_final)[passo_n]FACA(comandos) FIMPARA.
+    </p>
+
+    <p>
+        Dentro dessa estrutura temos uma variável usada para controlar o programa para saber quando o programa deve se encerrar, e vai se repetir de o valor inicial a qual voc~e vai colocar ate o numero de vezes que você também colocar já o passo_n serve para controlar se ela vai pular a contagem 2, 3, 4 ou posso diminuir fazendo uma contagem regressiva, e a regra diz que se nao for informado o programa por padrão vai ser passo 1.  
+    </p>
 </body>
 </html>
